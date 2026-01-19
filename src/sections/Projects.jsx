@@ -4,7 +4,7 @@ export default function Projects(){
     <h2>Projects</h2>
 
     <div>
-      <h3>Historical Figure Chatbot</h3>
+      <h3>Historical Figure Chatbot<img src ="/steve.png" alt = "Steve Irwin Icon" /></h3>
       <p>
         Full-stack chatbot built using React and Express. Implemented RESTful
         APIs to handle communication between frontend and backend and managed

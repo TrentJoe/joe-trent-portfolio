@@ -59,7 +59,7 @@ body {
 
 /* ===== Sections ===== */
 section {
-  padding: var(--spacing-xl) 0;
+  padding: var(--spacing-sm) 0;  
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -72,7 +72,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--color-text);
-  margin-bottom: var(--spacing-sm);
+  margin-bottom: var(--spacing-xs);  
   letter-spacing: -0.02em;
 }
 
@@ -80,7 +80,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--color-text);
-  margin-bottom: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);  
   padding-bottom: var(--spacing-xs);
   border-bottom: 2px solid var(--color-primary);
   display: inline-block;
@@ -164,11 +164,14 @@ a:hover {
 /* ===== Profile Section ===== */
 .profile {
   text-align: left;
-  padding-top: var(--spacing-lg);
+  padding-top: 0;  
 }
 
 .profile h1 {
   color: var(--color-primary-dark);
+  padding-bottom: var(--spacing-xs);
+  border-bottom: 2px solid var(--color-primary-dark);
+  
 }
 
 .profile p {
@@ -181,11 +184,14 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing-xl);
+  justify-content: center;
+  align-items: flex-start;
 }
+
 .skills > div {
   flex: 1;
-  margin-bottom: var(--spacing-lg);
   min-width: 300px;
+  max-width: 500px;
 }
 
 .skills > div:last-child {
@@ -194,13 +200,36 @@ a:hover {
 
 /* ===== Projects Section ===== */
 .projects > div {
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
 }
 
 .projects > div:last-child {
   margin-bottom: 0;
 }
 
+.projects a {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-md);
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.projects a:hover {
+  background-color: var(--color-primary-dark);
+  transform: translateY(-2px);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.projects h3 img {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
 /* ===== Experience Section ===== */
 /* Uses .card class for styling */
 
@@ -210,7 +239,6 @@ a:hover {
 /* ===== Contact Section ===== */
 .contact {
   text-align: center;
-  padding-bottom: var(--spacing-xl);
 }
 
 .contact p {
