@@ -13,6 +13,7 @@ export default function Projects(){
         <a href="https://github.com/HistoricFigureChatbot/steve-irwin-chatbot.git">
           View on GitHub
         </a>
+        <a href= "https://www.steveirwin.tech/">Live Demo</a>
     </div>
     <div>
         <h3>Occupational Health Referral System</h3>

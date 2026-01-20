@@ -214,6 +214,7 @@ a:hover {
   color: white;
   border-radius: var(--border-radius);
   transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-right: var(--spacing-sm);
 }
 
 .projects a:hover {
