@@ -6,6 +6,7 @@ import Projects from './sections/Projects'
 import Experience from './sections/Experience'
 import Education from './sections/Education'
 import Contact from './sections/Contact'
+import Achievements from './sections/Achievements'
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div>
         <Education  />
+      </div>
+      <div>
+        <Achievements />
       </div>
       <div>
         <Contact />

@@ -3,7 +3,7 @@ export default function Profile() {
     <section className="profile">
       <h1>Joseph Trent CV</h1>
       <p>
-        I am a BSc Computer Science student at Bournemouth University and former Great Britain semi-professional athlete. Having spent three years living abroad to compete at the highest level, I have now successfully transitioned that same elite-level discipline and drive into a new passion for technology. I combine high pressure decision making with a strong technical foundation in Full-Stack Development (React, Express, Python). I am fully committed to my career in technology and am seeking an industrial placement to apply my high performance mindset and learn from experienced professionals. I am eager to gain experience in any technical role like software development, data science, DevOps, cloud computing and many more.
+        BSc Computer Science undergraduate at Bournemouth University and former Great Britain semi-professional athlete, seeking a 2025–26 industrial placement. After spending three years living and competing abroad at elite international level, I have transitioned the same discipline, resilience, and high-pressure decision-making into a career in technology. I have a strong technical foundation in full-stack development (React, Express, Python) and experience working in fast-paced, operational environments requiring accuracy, communication, and problem-solving. Highly motivated, excited to learn, and eager to gain hands-on experience across software engineering, systems, data, or cloud-focused roles.
       </p>
     </section>
   )
