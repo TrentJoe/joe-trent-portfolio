@@ -42,7 +42,7 @@ export default function Experience(){
         <ul>
           <li>Worked in a team environment requiring precision, efficiency, and safety compliance.</li>
           <li>Maintained high levels of accuracy when processing and tracking inventory.</li>
-          <li>Communicated in both English and Danish, demonstrating adaptability and rapid learning.</li>
+          <li>Communicated in both English and basic-level Danish with colleagues, demonstrating adaptability and rapid learning.</li>
           <li>Trusted to contact buyers in Danish about the goods.</li>
           <li>Balanced full-time work alongside elite-level athletic commitments.</li>
         </ul>
@@ -51,7 +51,7 @@ export default function Experience(){
         <strong>Pool Lifeguard</strong>– Everyone Active (2018–2020)
         <br />
         <ul>
-          <li>Held responsibility for swimmer safety in a high-risk environment.</li>
+          <li>Responsible for swimmer safety in a high-risk environment.</li>
           <li>Acted as first responder in the event of injury or medical emergencies.</li>
           <li>Maintained constant situational awareness and followed strict safety protocols.</li>
         </ul>
