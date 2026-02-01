@@ -14,6 +14,14 @@ export default function Projects(){
         <a href= "https://www.steveirwin.tech/">Live Demo</a>
     </div>
     <div>
+      <h3>BillNest – Expense Tracking & Splitting Platform (Personal Project)<img src = "/BillNest.png" alt = "BillNest Logo" /></h3>
+      <p>
+        <strong>"""In Progress"""</strong>
+        Designing a full-stack expense management application using Flask REST API and React, implementing JWT authentication, role-based access control, and complex financial logic for tracking shared and personal expenses. Building a normalized relational database schema with SQLAlchemy and versioned migrations using Alembic. Implemented business logic for uneven expense splits, recurring subscriptions, and derived balance calculations, demonstrating production-ready architectural patterns and separation of concerns.
+      </p>
+      <a href = "https://github.com/TrentJoe/BillNest.git">View on Github</a>
+    </div>
+    <div>
         <h3>Occupational Health Referral System</h3>
         <p>
           Team-based university project where we gathered real-world requirements through direct stakeholder engagement. Adopted an Agile framework to iteratively develop and prototype the software solution, collaborating as a team to plan a full system design.
