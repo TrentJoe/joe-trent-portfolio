@@ -5,9 +5,9 @@ export default function Skills(){
     <div>
     <h2>Technical Skills</h2>
       <h4>Programming Languages</h4>
-      <p>JavaScript, Python, HTML, CSS, SQL</p>
+      <p>JSX, Python, HTML, CSS, SQLAlchemy</p>
       <h4>Frameworks/Libraries</h4>
-      <p>React, Node.js, Express</p>
+      <p>React, Node.js, Express, Flask</p>
       <h4>Tools</h4>
       <p>Git & Github, RESTful APIs, Agile (SDLC)</p>
     </div>

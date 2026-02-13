@@ -22,10 +22,10 @@ function App() {
         <Projects />
       </div>
       <div>
-        <Experience />
+        <Education  />
       </div>
       <div>
-        <Education  />
+        <Experience />
       </div>
       <div>
         <Achievements />

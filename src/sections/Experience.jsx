@@ -3,7 +3,7 @@ export default function Experience(){
     <section className="experience">
     <h2>Experience</h2>
 
-      <p className="card">
+      <div className="card">
         <strong>Customer Service Agent</strong> – Interface247 (2023–2024)
         <br />
         <ul>
@@ -13,9 +13,9 @@ export default function Experience(){
           <li>Received positive feedback for professionalism and customer satisfaction.</li>
           <li>Worked within strict operational procedures while maintaining service quality.</li>
         </ul>
-      </p>
+      </div>
 
-      <p className="card">
+      <div className="card">
         <strong>Bartender & Waiter</strong> – Lambs Green Inn (2025–Present)
         <br />
         <ul>
@@ -24,8 +24,8 @@ export default function Experience(){
           <li>Maintain compliance with health, safety, and hygiene procedures.</li>
           <li>Communicate clearly with team members and customers to ensure smooth service delivery.</li>
         </ul>
-      </p>
-      <p className="card">
+      </div>
+      <div className="card">
         <strong>Professional Handball Athlete</strong>- Lamego, Portugal - 2023-2024
         <br />
         <ul>
@@ -35,8 +35,8 @@ export default function Experience(){
           <li>Maintained discipline, reliability, and accountability while living abroad.</li>
           <li>Balanced professional sporting commitments alongside personal development and long-term career planning.</li>
         </ul>
-      </p>
-      <p className="card">
+      </div>
+      <div className="card">
         <strong>Warehouse Operative</strong>– Coolshop, Denmark (2022–2023)
         <br />
         <ul>
@@ -46,8 +46,8 @@ export default function Experience(){
           <li>Trusted to contact buyers in Danish about the goods.</li>
           <li>Balanced full-time work alongside elite-level athletic commitments.</li>
         </ul>
-      </p>
-      <p className="card">
+      </div>
+      <div className="card">
         <strong>Pool Lifeguard</strong>– Everyone Active (2018–2020)
         <br />
         <ul>
@@ -55,7 +55,7 @@ export default function Experience(){
           <li>Acted as first responder in the event of injury or medical emergencies.</li>
           <li>Maintained constant situational awareness and followed strict safety protocols.</li>
         </ul>
-      </p>
+      </div>
     </section>
 
   )
